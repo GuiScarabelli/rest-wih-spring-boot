@@ -1,8 +1,8 @@
 package com.example.parametersandexceptionhandler;
 
-import converters.NumberConverter;
-import exceptions.UnsupportedMathOperationException;
-import operations.Operations;
+import com.example.parametersandexceptionhandler.converters.NumberConverter;
+import com.example.parametersandexceptionhandler.exceptions.UnsupportedMathOperationException;
+import com.example.parametersandexceptionhandler.operations.Operations;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;

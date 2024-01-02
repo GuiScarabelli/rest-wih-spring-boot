@@ -1,4 +1,4 @@
-package operations;
+package com.example.parametersandexceptionhandler.operations;
 
 public class Operations {
     public Double sum(Double number1, Double number2){

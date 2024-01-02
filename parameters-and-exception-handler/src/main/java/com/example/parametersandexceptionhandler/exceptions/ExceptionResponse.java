@@ -1,4 +1,4 @@
-package exceptions;
+package com.example.parametersandexceptionhandler.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;

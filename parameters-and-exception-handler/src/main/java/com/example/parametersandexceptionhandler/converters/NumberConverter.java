@@ -1,4 +1,4 @@
-package converters;
+package com.example.parametersandexceptionhandler.converters;
 
 public class NumberConverter {
 

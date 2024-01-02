@@ -1,7 +1,8 @@
-package exceptions.handler;
+package com.example.parametersandexceptionhandler.exceptions.handler;
 
 import java.util.Date;
 
+import com.example.parametersandexceptionhandler.exceptions.ExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -10,8 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import exceptions.ExceptionResponse;
-import exceptions.UnsupportedMathOperationException;
+import com.example.parametersandexceptionhandler.exceptions.UnsupportedMathOperationException;
 
 @ControllerAdvice
 @RestController
