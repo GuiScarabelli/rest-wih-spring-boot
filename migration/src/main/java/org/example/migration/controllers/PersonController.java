@@ -1,7 +1,7 @@
-package com.example.dependencyinjection;
+package org.example.migration.controllers;
 
-import com.example.dependencyinjection.data.vo.v1.PersonVO;
-import com.example.dependencyinjection.services.PersonServices;
+import  org.example.migration.data.vo.v1.PersonVO;
+import  org.example.migration.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
