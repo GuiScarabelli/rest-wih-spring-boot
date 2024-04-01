@@ -1,4 +1,4 @@
-package org.example.migration.data.vo.v1;
+package org.example.contentnegotiation.data.vo.v1;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 

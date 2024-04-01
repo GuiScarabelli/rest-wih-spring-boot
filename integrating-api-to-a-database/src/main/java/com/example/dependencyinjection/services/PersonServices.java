@@ -20,7 +20,6 @@ public class PersonServices {
 
     public List<Person> findAll () {
         logger.info("Finding all people in Datatbase *mock*");
-
         return repository.findAll();
     }
 
